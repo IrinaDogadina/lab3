@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-	if(argv[1]!="" && argv[2]!="")
+	if(argc==3)
 	{
 	string sim="";
 	string res="";
