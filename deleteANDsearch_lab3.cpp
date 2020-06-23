@@ -14,7 +14,6 @@ ofstream file(NameFile);
                 	if(Id!=i){file<<Prod[i];}
                 	i++;
         	}
-		delete [] Prod;
 		file.close();
 	}
 }
@@ -118,4 +117,3 @@ int i=0;
 
         }
 }
-
